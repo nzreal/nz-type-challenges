@@ -16,5 +16,7 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "prettier.semi": false,
   "typescript.format.semicolons": "remove",
-  "javascript.format.semicolons": "remove"
+  "javascript.format.semicolons": "remove",
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {}
 }
