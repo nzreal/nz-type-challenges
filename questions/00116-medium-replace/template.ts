@@ -9,7 +9,7 @@ type Replace<S extends string, From extends string, To extends string> =
 //   for (let startIdx = 0; startIdx < targetLen; startIdx++) {
 //     let tmpStr = target[startIdx]
 //     for (let endIdx = startIdx; endIdx < targetLen; endIdx++) {
-//       if(tmpStr === from) {
+//       if (tmpStr === from) {
 
 //       }
 //     }
