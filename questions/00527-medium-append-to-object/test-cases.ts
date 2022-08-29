@@ -1,4 +1,5 @@
 import type { Equal, Expect } from '@type-challenges/utils'
+import type { AppendToObject } from './template'
 
 type test1 = {
   key: 'cat'
