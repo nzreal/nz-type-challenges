@@ -16,9 +16,6 @@ __Hard - Not Start Yet__
   - extends 后面
 - [ ] equal & inner util type
   - 理论下述便可以满足
-
-
-
 - [ ] why DeepReadonly2\<symbol> = symbol; DeepReadonly2\<number> = number
 - [ ] configuration learning
 - [ ] declare、namespace、module
@@ -32,4 +29,10 @@ __Hard - Not Start Yet__
   - <https://jkchao.github.io/typescript-book-chinese/project/modules.html#%E6%96%87%E4%BB%B6%E6%A8%A1%E5%9D%97> 文件模块也被称为外部模块。如果在你的 TypeScript 文件的根级别位置含有 import 或者 export，那么它会在这个文件中创建一个本地的作用域
 - [ ] `is` 使用
 - [ ] `as` 于 ts 内部的使用
+such as
+
+```ts
+type test<T extends Record<string, any>> = {[K in keyof T as string]: T[K]}
+```
+
 - [ ] ts 作用域问题，全局作用域配置，引入模块后默认模块作用域
