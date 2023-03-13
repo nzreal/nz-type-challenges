@@ -1,4 +1,5 @@
 import type { Equal, Expect } from '@type-challenges/utils'
+import type { IsNever } from './template'
 
 type cases = [
   Expect<Equal<IsNever<never>, true>>,
