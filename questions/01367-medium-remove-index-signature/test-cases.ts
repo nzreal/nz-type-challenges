@@ -28,3 +28,5 @@ type cases = [
   Expect<Equal<RemoveIndexSignature<FooBar>, { [foobar](): void }>>,
   Expect<Equal<RemoveIndexSignature<Baz>, { bar(): void; baz: string }>>,
 ]
+
+type c1 = RemoveIndexSignature<FooBar>
