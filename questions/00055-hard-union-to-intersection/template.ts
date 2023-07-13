@@ -29,6 +29,10 @@ type f2 = (x: 'b') => any
 /**
  * 协变：子类型 -> 父类型
  *
+ * 协变指能够使用比原始指定的派生类型的派生程度更大（更具体的）的类型
+ *
+ * 逆变指能够使用比原始指定的派生类型的派生程度更小（不太具体的）的类型
+ * https://learn.microsoft.com/zh-cn/dotnet/standard/generics/covariance-and-contravariance?redirectedfrom=MSDN
  * 如下方
  */
 interface A {
